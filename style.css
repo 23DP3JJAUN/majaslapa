@@ -1,0 +1,73 @@
+/* Global settings */
+body {
+    background-color: red; /* Fons būs sarkans */
+    color: white; /* Teksts būs balts */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: black; /* Galvene būs melna */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; /* Teksts galvenē būs balts */
+  }
+  
+  header .logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white; /* Balts teksts navigācijas saitēm */
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('mcqueen-hero.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Custom Section */
+  #cat-fact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f1f1f1; /* Ja vēlies pelēku fonu šai daļai */
+    color: #333; /* Teksts šajā sekcijā būs tumši pelēks */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: black; /* Kājene būs melna */
+    color: white; /* Teksts kājenē būs balts */
+    text-align: center;
+    padding: 10px 0;
+  }
