@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
   <header>
     <div class="logo">
       <img src="https://www.nicepng.com/png/full/36-365993_lightning-mcqueen-logo-png-rayo-mcqueen-logo-vector.png" alt="logo">
@@ -24,13 +23,67 @@
   <section id="hero">
     <h1>Laipni lūdzam McQueen pasaulē!</h1>
     <p>Izbaudiet ātrumu un piedzīvojumus ar McQueen</p>
-    <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png" alt="McQueen Logo" />
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png" alt="McQueen Logo" id="car">
   </section>
 
   <section class="cat-fact-section" id="cat-fact-section">
     <h2>Kaķu fakts:</h2>
     <p id="cat-fact">Lūdzu, gaidiet...</p>
     <button onclick="getCatFact()">Iegūt jaunu faktu</button>
+    <div class="speles-nosaukums">Krustiņi un nullītes</div>
+
+  <div id="statuss" class="speles-statuss"></div>
+
+  <div class="speles-konteineris">
+    <div>
+      <div class="rinda">
+        <div id="rinda-0-kolonna-0" class="kolonna pirma augsa" onclick="iezimetLauku(event)">
+
+        </div>
+
+        <div id="rinda-0-kolonna-1" class="kolonna otra augsa" onclick="iezimetLauku(event)">
+        </div>
+
+        <div id="rinda-0-kolonna-2" class="kolonna tresa augsa" onclick="iezimetLauku(event)">
+        </div>
+      </div>
+      <div class="rinda">
+        <div id="rinda-1-kolonna-0" class="kolonna pirma" onclick="iezimetLauku(event)">
+        </div>
+
+        <div id="rinda-1-kolonna-1" class="kolonna otra" onclick="iezimetLauku(event)">
+        </div>
+
+        <div id="rinda-1-kolonna-2" class="kolonna tresa" onclick="iezimetLauku(event)">
+        </div>
+      </div>
+      <div class="rinda">
+        <div id="rinda-2-kolonna-0" class="kolonna pirma apaksa" onclick="iezimetLauku(event)">
+        </div>
+
+        <div id="rinda-2-kolonna-1" class="kolonna otra apaksa" onclick="iezimetLauku(event)">
+        </div>
+
+        <div id="rinda-2-kolonna-2" class="kolonna tresa apaksa" onclick="iezimetLauku(event)">
+        </div>
+      </div>
+    </div>
+    <div class="speles-informacija">
+      <div>Gājiens: <span id="gajiens"></span></div>
+      <br>
+      <div>
+        Spēlētājs 1 (X) uzvaras: <span id="speletajs1-punkti"></span>
+      </div>
+      <div>
+        Spēlētājs 2 (O) uzvaras: <span id="speletajs2-punkti"></span>
+      </div>
+    </div>
+  </div>
+  <div class="pogas-konteineris">
+    <button id="poga" class="poga" onclick="saktSpeli()">Spēlēt vēlreiz</button>
+  </div>
+  <br>
+  <br>
 </section>
 
   <footer>

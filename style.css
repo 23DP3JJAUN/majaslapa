@@ -1,20 +1,19 @@
-/* Global settings */
+
 body {
-    background-color: red; /* Fons būs sarkans */
-    color: white; /* Teksts būs balts */
+    background-color: red;
+    color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  /* Header */
   header {
-    background-color: black; /* Galvene būs melna */
+    background-color: black;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white; /* Teksts galvenē būs balts */
+    color: white; 
   }
   
   header .logo img {
@@ -34,12 +33,11 @@ body {
   }
   
   header nav ul li a {
-    color: white; /* Balts teksts navigācijas saitēm */
+    color: white; 
     text-decoration: none;
     font-size: 18px;
   }
   
-  /* Hero Section */
   #hero {
     background: url('mcqueen-hero.jpg') no-repeat center center;
     background-size: cover;
@@ -56,18 +54,115 @@ body {
     font-size: 1.5rem;
   }
   
-  /* Custom Section */
   #cat-fact {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f1f1f1; /* Ja vēlies pelēku fonu šai daļai */
-    color: #333; /* Teksts šajā sekcijā būs tumši pelēks */
+    background-color: #f1f1f1; 
+    color: #333;
   }
   
-  /* Footer */
   footer {
-    background-color: black; /* Kājene būs melna */
-    color: white; /* Teksts kājenē būs balts */
+    background-color: black; 
+    color: white; 
     text-align: center;
     padding: 10px 0;
   }
+
+#car {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.speles-nosaukums {
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.speles-statuss {
+  height: 33px;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.speles-konteineris {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  padding-bottom: 20px;
+}
+
+.rinda {
+  display: flex;
+}
+
+.kolonna{
+  width: 120px;
+  height: 120px;
+  font-size: 98px;
+  line-height: 120px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pirma {
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.otra {
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+}
+
+.tresa {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+}
+
+.apaksa{
+  border-bottom: none;
+}
+.augsa{
+  border-top: none;
+}
+
+.speles-informacija{
+  font-size: 28px;
+  color: #ffffff;
+  margin-left: 150px;
+}
+
+.pogas-konteineris {
+  height: 58px;
+  margin-left: 20px;
+}
+
+.poga{
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background: none;
+  display: block;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.autors{
+  color: #ffffff;
+  text-align: center;
+}
